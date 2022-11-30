@@ -16,6 +16,11 @@ i{
 
 /* customizations */
 
+.login-btn {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
 .gradient {
   background: -webkit-linear-gradient(#6f95e2, #3446ad);
   background-clip: text;
