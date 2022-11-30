@@ -15,27 +15,35 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
    <link rel="icon" href="img/syphon.jpg">
-   <title>Syphon Games</title>
-
+   <title>S'inscrire</title>
  </head>
 
+
  <body>
+
   <?php require "components/navbar.php" ?>
+
    <div class="block1">
      <div class="row animate__animated animate__fadeIn wow">
        <div class="col s10 offset-s1 l6 offset-l3 description anim1">
-        <div class="center login-btn">
-          <a class="waves-effect waves-light btn" href="signin.php">Se connecter</a>
-        </div>
-        <div class="center login-btn">
-          <a class="waves-effect waves-light btn" href="signup.php">S'inscrire</a>
-        </div>
+         <div class="center">
+           <form action="action/signup-A.php" method="post" name="signup">
+             <div class="gradient">
+               <input type='email' name='email' placeholder="email" /> <br>
+               <input type='password' name='password' placeholder="mot de passe" /> <br>
+               <input type='text' name='username' placeholder="nom d'utilisateur" /> <br>
+               <input type='text' name='country' placeholder="country" /> <br>
+               <input type='number' name='phone_number' placeholder="numéro de téléphone" /> <br>
+               <input type='date' name='birth_date' placeholder="birth date" /> <br>
+             </div>
+             <div class="center login-btn">
+               <button class="btn" type="submit" name="action">Terminer</button>
+             </div>
+           </form>
       </div>
      </div>
     </div>
-<<<<<<< HEAD
-    <?php require "components/footer.php" ?>
-=======
+  </div>
 
     <!--JavaScript at end of body for optimized loading-->
     <script src="js/jquery.js"></script>
@@ -43,6 +51,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/script.js"></script>
     <script src="https://kit.fontawesome.com/198411c19a.js" crossorigin="anonymous"></script>
->>>>>>> 68d2930c9eb5838d6201f067e39e897730537090
+
  </body>
 </html>

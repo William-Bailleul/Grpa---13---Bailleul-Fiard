@@ -21,6 +21,7 @@
 
  <body>
   <?php require "components/navbar.php" ?>
+
    <div class="block1">
      <div class="row animate__animated animate__fadeIn wow">
        <div class="col s10 offset-s1 l6 offset-l3 description anim1">
@@ -33,16 +34,51 @@
       </div>
      </div>
     </div>
-<<<<<<< HEAD
-    <?php require "components/footer.php" ?>
-=======
 
+    <!-- Modal -->
+    <div class="modal-content">
+      <div id="modal1" class="modal modal-fixed-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col s12 l12">
+              <h5 class="blue-text">Contact</h5>
+              <div class="row">
+                <form class="col s12 l12">
+                  <div class="row">
+                    <div class="input-field col s6 l6">
+                      <input id="first_name" type="text" class="validate">
+                      <label for="first_name">Prénom</label>
+                    </div>
+                    <div class="input-field col s6 l6">
+                      <input id="last_name" type="text" class="validate">
+                      <label for="last_name">Nom</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12 l12">
+                      <input id="email" type="email" class="validate">
+                      <label for="email">Email</label>
+                    </div>
+                    <div class="input-field col s12 l12">
+                      <textarea id="textarea1" class="materialize-textarea"></textarea>
+                      <label for="textarea1">Message</label>
+                      <div class="modal-footer">
+                        <a href="#!" class="modal-close waves-effect waves-light btn-flat">Agree</a>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!--JavaScript at end of body for optimized loading-->
     <script src="js/jquery.js"></script>
     <script src="js/materialize.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/script.js"></script>
     <script src="https://kit.fontawesome.com/198411c19a.js" crossorigin="anonymous"></script>
->>>>>>> 68d2930c9eb5838d6201f067e39e897730537090
  </body>
 </html>
