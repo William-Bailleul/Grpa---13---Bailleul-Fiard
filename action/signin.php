@@ -18,7 +18,7 @@
     <title>Se connecter</title>
   </head>
   <body>
-    <?php require "components/navbar.php" ?>
+    <?php require "./components/navbar.php" ?>
     <?php
       if (isset($_POST['username'])) {
         echo $_POST['username'];
@@ -41,6 +41,6 @@
         </div>
       </div>
     </div>
-    <?php require "components/footer.php" ?>
+    <?php require "./components/footer.php" ?>
   </body>
 </html>

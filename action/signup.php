@@ -30,7 +30,7 @@
        echo 'Nom d\'utilisateur trop long';
      }
    ?>
-  <?php require "components/navbar.php" ?>
+  <?php require "./components/navbar.php" ?>
    <div class="block1">
      <div class="row animate__animated animate__fadeIn wow">
        <div class="col s10 offset-s1 l6 offset-l3 description anim1">
@@ -52,6 +52,6 @@
      </div>
     </div>
   </div>
-  <?php require "components/footer.php" ?>
+  <?php require "./components/footer.php" ?>
  </body>
 </html>
