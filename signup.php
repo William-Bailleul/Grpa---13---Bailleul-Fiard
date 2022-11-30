@@ -18,6 +18,12 @@
    <title>S'inscrire</title>
  </head>
 
+ <?php
+   echo $_POST['email'];
+
+ ?>
+
+
  <body>
 
    <header>
@@ -50,23 +56,24 @@
    <div class="block1">
      <div class="row animate__animated animate__fadeIn wow">
        <div class="col s10 offset-s1 l6 offset-l3 description anim1">
-         <div class="center gradient">
+         <div class="center">
            <form method="post" action="signup.php">
-             <input type='email' name='email' placeholder="email" /> <br>
-             <input type='password' name='password' placeholder="mot de passe" /> <br>
-             <input type='text' name='username' placeholder="nom d'utilisateur" /> <br>
-             <input type='text' name='country' placeholder="country" /> <br>
-             <input type='number' name='phone_number' placeholder="numéro de téléphone" /> <br>
-             <input type='date' name='birth_date' placeholder="birth date" /> <br>
+             <div class="gradient">
+               <input type='email' name='email' placeholder="email" /> <br>
+               <input type='password' name='password' placeholder="mot de passe" /> <br>
+               <input type='text' name='username' placeholder="nom d'utilisateur" /> <br>
+               <input type='text' name='country' placeholder="country" /> <br>
+               <input type='number' name='phone_number' placeholder="numéro de téléphone" /> <br>
+               <input type='date' name='birth_date' placeholder="birth date" /> <br>
+             </div>
+             <div class="center login-btn">
+               <button class="btn waves-effect waves-light" type="submit" name="action">Terminer</button>
+             </div>
            </form>
-        </div>
-        <div class="center login-btn">
-          <button class="btn waves-effect waves-light" type="submit" name="action">Terminer</button>
-        </div>
       </div>
      </div>
     </div>
-
+  </div>
     <!-- Modal -->
     <div class="modal-content">
       <div id="modal1" class="modal modal-fixed-footer">
