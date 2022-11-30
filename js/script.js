@@ -31,10 +31,10 @@ $(document).ready(function() {
 
 
   $('#modeswitcher').click(function() {
-    if ($("#theme-controller").attr("href") == "css/theme-white.css")
-      $("#theme-controller").attr("href", "css/theme-dark.css");
+    if ($("#theme-controller").attr("href") == "../css/theme-white.css")
+      $("#theme-controller").attr("href", "../css/theme-dark.css");
     else
-      $("#theme-controller").attr("href", "css/theme-white.css");
+      $("#theme-controller").attr("href", "../css/theme-white.css");
   });
 
   //Haut, haut, bas, bas, gauche, droite, gauche, droite, B, A
