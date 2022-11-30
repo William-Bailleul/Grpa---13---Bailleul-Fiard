@@ -11,7 +11,7 @@
           <div class="col l6 s6">
             <h5 class="white-text">Retrouvez Nous</h5>
             <a href="https://gamingcampus.fr/" target="_blank">
-              <img class="anim4" src="img/gc.jpg" alt="logo du gaming campus">
+              <img class="anim4" src="../img/gc.jpg" alt="logo du gaming campus">
             </a>
           </div>
           <div class="col l4 offset-l2 s6">
