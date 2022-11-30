@@ -16,10 +16,15 @@ i{
 
 /* customizations */
 
+.login-btn {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
 .gradient {
   background: -webkit-linear-gradient(#6f95e2, #3446ad);
   background-clip: text;
-  background-size: 100%; 
+  background-size: 100%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   width: 100%;
@@ -50,7 +55,7 @@ i{
 .anim1:hover{
   box-shadow: 10px 10px 0px #3850d5;
   transition-duration: 0.5s;
-}  
+}
 
 .anim1v2{
     box-shadow: 10px -10px 0px #3850d5;
@@ -60,7 +65,7 @@ i{
 .anim1v2:hover{
   box-shadow: -10px 10px 0px #3850d5;
   transition-duration: 0.5s;
-}  
+}
 
 
 .anim2{
