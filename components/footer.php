@@ -12,7 +12,7 @@
           <div class="col l6 s6">
             <h5 class="white-text">Retrouvez Nous</h5>
             <a href="https://gamingcampus.fr/" target="_blank">
-              <img class="anim4" src="img/gc.jpg" alt="logo du gaming campus">
+              <img class="anim4" src="../img/gc.jpg" alt="logo du gaming campus">
             </a>
           </div>
           <div class="col l4 offset-l2 s6">
@@ -42,12 +42,12 @@
     </footer>
 
   <!--JavaScript at end of body for optimized loading-->
-  <script src="js/jquery.js"></script>
-  <script src="js/materialize.js"></script>
+  <script src="../js/jquery.js"></script>
+  <script src="../js/materialize.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
     integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="js/script.js"></script>
+  <script src="../js/script.js"></script>
   <script src="https://kit.fontawesome.com/198411c19a.js" crossorigin="anonymous"></script>
   </body>
 </html>
