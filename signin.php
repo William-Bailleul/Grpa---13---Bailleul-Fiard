@@ -51,14 +51,16 @@
   <div class="block1">
     <div class="row animate__animated animate__fadeIn wow">
       <div class="col s10 offset-s1 l6 offset-l3 description anim1">
-        <div class="center gradient">
-          <form method="post" action="signup.php">
+        <div class="center">
+          <form action="action/signin-A.php" method="post" name="signin">
+            <div class="gradient">
             <input type='text' name='username' placeholder="nom d'utilisateur" /> <br>
             <input type='password' name='password' placeholder="mot de passe" /> <br>
+            </div>
+          <div class="center login-btn">
+            <button class="btn" type="submit" name="action">Terminer</button>
+          </div>
           </form>
-        </div>
-        <div class="center login-btn">
-          <button class="btn waves-effect waves-light" type="submit" name="action">Terminer</button>
         </div>
       </div>
     </div>
