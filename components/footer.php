@@ -4,7 +4,6 @@
     <meta charset="utf-8">
   </head>
   <body>
-
     <!-- Footer -->
     <footer class="page-footer">
       <div class="container">
