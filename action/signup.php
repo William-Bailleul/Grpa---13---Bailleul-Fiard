@@ -1,6 +1,6 @@
+<!DOCTYPE html>
 <html>
-
- <head>
+  <head>
    <meta charset="utf-8">
    <!--Import Google Icon Font-->
    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -16,10 +16,10 @@
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
    <link rel="icon" href="img/syphon.jpg">
    <title>S'inscrire</title>
- </head>
+  </head>
 
 
- <body>
+  <body>
    <?php
      if (isset($_POST['username'])) {
        echo htmlentities($_POST['username']);
@@ -53,6 +53,5 @@
     </div>
   </div>
   <?php require "components/footer.php" ?>
-
  </body>
 </html>
