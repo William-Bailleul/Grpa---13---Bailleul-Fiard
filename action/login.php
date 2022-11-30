@@ -1,4 +1,5 @@
 <html>
+ 
  <head>
    <meta charset="utf-8">
    <!--Import Google Icon Font-->
@@ -16,7 +17,9 @@
    <link rel="icon" href="../img/syphon.jpg">
    <title>Syphon Games</title>
  </head>
+ 
  <body>
+  
    <header>
      <!-- nav bar -->
      <nav>
@@ -57,12 +60,10 @@
              <input type='date' name='birth_date' placeholder="birth date" /> <br>
              <input type='submit' value='Me connecter' />
            </form>
-
         </div>
       </div>
      </div>
     </div>
-
 
  </body>
 </html>
