@@ -22,7 +22,7 @@
         </div>
       </nav>
       <ul class="sidenav" id="mobile-demo">
-        <li><a href="terraria.php">Terraria</a></li>
+        <li><a href="terraria.php">Terrariaa</a></li>
         <li><a href="dbd.php">Dead By Daylight</a></li>
         <li><a href="soom.php">Soom</a></li>
         <li><a class="waves-effect waves-light btn modal-trigger blue2" href="#modal1">Contact</a></li>
@@ -57,7 +57,7 @@
                       <textarea id="textarea1" class="materialize-textarea"></textarea>
                       <label for="textarea1">Message</label>
                       <div class="modal-footer">
-                        <a href="#!" class="modal-close waves-effect waves-light btn-flat">Send</a>
+                        <a href="#!" class="modal-close waves-effect waves-light btn-flat">Sen</a>
                       </div>
                     </div>
                   </div>
