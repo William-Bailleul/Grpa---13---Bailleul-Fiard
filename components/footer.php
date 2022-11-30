@@ -9,7 +9,7 @@
       <div id="modal1" class="modal modal-fixed-footer">
         <div class="container">
           <div class="row">
-            <div class="col s12 l12">
+            <div class="col s12 l12 modal-start">
               <h5 class="blue-text">Contact</h5>
               <div class="row">
                 <form class="col s12 l12">
