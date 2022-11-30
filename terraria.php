@@ -24,7 +24,7 @@
     <!-- nav bar -->
     <nav>
       <div class="nav-wrapper">
-        <a href="index.html" class="brand-logo center">
+        <a href="index.php" class="brand-logo center">
           <i class="material-icons">videogame_asset</i> Syphon
         </a>
         <div class="right">
@@ -34,18 +34,18 @@
           <i class="material-icons">menu</i>
         </a>
         <ul class="left hide-on-med-and-down">
-          <li><a href="terraria.html">Terraria</a></li>
-          <li><a href="dbd.html">Dead By Daylight</a></li>
-          <li><a href="soom.html">Soom</a></li>
+          <li><a href="terraria.php">Terraria</a></li>
+          <li><a href="dbd.php">Dead By Daylight</a></li>
+          <li><a href="soom.php">Soom</a></li>
           <li><a class="waves-effect waves-light btn modal-trigger blue2" href="#modal1">Contact</a></li>
         </ul>
       </div>
     </nav>
 
     <ul class="sidenav" id="mobile-demo">
-      <li><a href="terraria.html">Terraria</a></li>
-      <li><a href="dbd.html">Dead By Daylight</a></li>
-      <li><a href="soom.html">Soom</a></li>
+      <li><a href="terraria.php">Terraria</a></li>
+      <li><a href="dbd.php">Dead By Daylight</a></li>
+      <li><a href="soom.<?php  ?>">Soom</a></li>
       <li><a class="waves-effect waves-light btn modal-trigger blue2" href="#modal1">Contact</a></li>
       <li><i class="fa-solid fa-cat" id="nyan"></i></li>
     </ul>
@@ -228,7 +228,7 @@
       </div>
     </div>
   </div>
-  
+
   <!--JavaScript at end of body for optimized loading-->
   <script src="js/jquery.js"></script>
   <script src="js/materialize.js"></script>
