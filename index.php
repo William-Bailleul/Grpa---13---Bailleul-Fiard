@@ -24,6 +24,8 @@
       <div class="nav-wrapper">
         <a href="index.php" class="brand-logo center"><i class="material-icons">videogame_asset</i>Syphon</a>
         <div class="right">
+          <i class="fa-regular fa-circle-user"></i>
+          <!--<i class="fa-solid fa-circle-user"></i>-->
           <i class="material-icons dropdown-trigger" id="modeswitcher"> remove_red_eye</i>
         </div>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -149,7 +151,7 @@
       </div>
     </div>
     <div class="footer-copyright">
-      <div class="container">SyphonGames© 2022 All Rights Reserved (enfin sauf les photos des autres jeux nous collez pas un procès svp)</div>
+      <div class="container">SyphonGames© 2022 All Rights Reserved(enfin sauf les photos des autres jeux nous collez pas un procès svp)</div>
     </div>
   </footer>
   <!-- Modal -->
