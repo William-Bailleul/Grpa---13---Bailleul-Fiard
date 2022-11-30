@@ -58,12 +58,10 @@
              <input type='text' name='country' placeholder="country" /> <br>
              <input type='number' name='phone_number' placeholder="numéro de téléphone" /> <br>
              <input type='date' name='birth_date' placeholder="birth date" /> <br>
-
-             <button class="btn waves-effect waves-light" type="submit" name="action">Submit
-               <i class="material-icons right">send</i>
-             </button>
-             
            </form>
+        </div>
+        <div class="center login-btn">
+          <button class="btn waves-effect waves-light" type="submit" name="action">Terminer</button>
         </div>
       </div>
      </div>
