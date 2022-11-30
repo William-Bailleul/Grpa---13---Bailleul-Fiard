@@ -19,7 +19,6 @@
 </head>
 <body>
   <?php require "components/navbar.php" ?>
-  <?php require "components/footer.php" ?>
   <!-- Carousel -->
   <div class="row">
     <div class="col s12 l8 offset-l2">
@@ -94,6 +93,7 @@
       </div>
     </div>
   </div>
+  <?php require "components/footer.php" ?>
   <!--JavaScript at end of body for optimized loading-->
   <script src="js/jquery.js"></script>
   <script src="js/materialize.js"></script>
