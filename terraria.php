@@ -21,7 +21,7 @@
 
 <body>
   <header>
-    <?php require "components/navbar.php" ?>
+  <?php require "components/navbar_index.php" ?>
     <ul class="sidenav" id="mobile-demo">
       <li><a href="terraria.php">Terraria</a></li>
       <li><a href="dbd.php">Dead By Daylight</a></li>
@@ -126,7 +126,7 @@
       </div>
     </div>
   </div>
-    <?php require "components/footer.php" ?>
+  <?php require "components/footer_index.php" ?>
 </body>
 
 </html>

@@ -18,7 +18,7 @@
   <title>Syphon Games</title>
 </head>
 <body>
-  <?php require "components/navbar.php" ?>
+  <?php require "components/navbar_index.php" ?>
   <!-- Carousel -->
   <div class="row">
     <div class="col s12 l8 offset-l2">
@@ -93,7 +93,7 @@
       </div>
     </div>
   </div>
-  <?php require "components/footer.php" ?>
+  <?php require "components/footer_index.php" ?>
 </body>
 
 </html>
