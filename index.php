@@ -18,7 +18,6 @@
   <title>Syphon Games</title>
 </head>
 <body>
-<<<<<<< HEAD
   <header>
     <!-- nav bar -->
     <nav>
@@ -46,9 +45,6 @@
       <li><i class="fa-solid fa-cat" id="nyan"></i></li>
     </ul>
   </header>
-=======
-  <?php require "components/navbar.php" ?>
->>>>>>> d6321c52a00e87809681e037564d30f8c5c5175f
   <!-- Carousel -->
   <div class="row">
     <div class="col s12 l8 offset-l2">

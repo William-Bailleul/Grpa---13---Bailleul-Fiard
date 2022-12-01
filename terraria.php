@@ -25,7 +25,7 @@
     <ul class="sidenav" id="mobile-demo">
       <li><a href="terraria.php">Terraria</a></li>
       <li><a href="dbd.php">Dead By Daylight</a></li>
-      <li><a href="soom.<?php  ?>">Soom</a></li>
+      <li><a href="soom.php">Soom</a></li>
       <li><a class="waves-effect waves-light btn modal-trigger blue2" href="#modal1">Contact</a></li>
       <li><i class="fa-solid fa-cat" id="nyan"></i></li>
     </ul>
