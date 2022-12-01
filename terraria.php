@@ -18,7 +18,6 @@
   <link rel="icon" href="img/syphon.jpg">
   <title>Syphon Games</title>
 </head>
-
 <body>
   <header>
   <?php require "components/navbar.php" ?>
