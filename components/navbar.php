@@ -10,7 +10,7 @@
           <a href="index.php" class="brand-logo center"><i class="material-icons">videogame_asset</i>Syphon</a>
           <div class="right">
             <?php if(isset($_SESSION['user'])){ ?>
-              <a href="profile.php"><i class="fa-regular fa-circle-user"></i></a>
+              <a href="profile.php"><i class="fa-solid fa-circle-user"></i></a>
             <?php }else{ ?>
               <a href="login.php"><i class="fa-regular fa-circle-user"></i></a>
             <?php } ?>

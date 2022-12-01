@@ -43,8 +43,8 @@
                <input type='text' name='country' placeholder="country" /> <br>
                <input type='number' name='phone_number' placeholder="numéro de téléphone" /> <br>
                <input type='date' name='birth_date' placeholder="birth date" /> <br>
-               <button class="btn blue2 center signup-btn" type="submit" name="action">Terminer</button>
              </div>
+             <button class="btn blue2 center signup-btn" type="submit" name="action">S'inscrire</button>
            </form>
          </div>
        </div>
