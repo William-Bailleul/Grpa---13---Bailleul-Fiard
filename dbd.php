@@ -20,7 +20,7 @@
 
 <body>
   <header>
-  <?php require "components/navbar_index.php" ?>
+  <?php require "components/navbar.php" ?>
   <!-- Introduction block-->
   <div class="row">
     <div class="col s12 center gradient">
@@ -137,6 +137,6 @@
       </div>
     </div>
   </div>
-  <?php require "components/footer_index.php" ?>
+  <?php require "components/footer.php" ?>
 </body>
 </html>
