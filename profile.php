@@ -1,7 +1,6 @@
+<?php require_once "action/logout.php" ?>
 <!DOCTYPE html>
 <html lang="fr">
-
-
 <head>
   <meta charset="utf-8">
   <!--Import Google Icon Font-->
@@ -24,19 +23,16 @@
 
 <body>
   <?php require "components/navbar.php" ?>
-
 <div class="block1">
   <div class="col s10 offset-s1 l6 offset-l3 profile anim1">
     <div class="profileusername center">
       <img class="profilepicture" src="img/soom-cards/soom2.jpeg" alt="image du jeu Soom">
+      <?php if(isset($_SESSION['user']) && $_SESSION['user']['admin']==1){ ?>
+      <a href="admin.php">Pannel Admin</a>
+      <?php } ?>
       <h1>
         Username
       </h1>
-    </div>
-    <div class="profiledesc center">
-      <h2>
-        Account created the creation_date
-      </h2>
     </div>
     <div class="profiledesc center">
       <h3>
