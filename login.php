@@ -20,7 +20,7 @@
   <?php require "components/navbar.php" ?>
    <div class="block1">
      <div class="row animate__animated animate__fadeIn wow">
-       <div class="col s10 offset-s1 l6 offset-l3 description anim1 login-block">
+       <div class="col s10 offset-s1 l6 offset-l3 description anim1">
         <div class="center login-btn1">
           <a class="waves-effect waves-light btn blue2" href="signin.php">Se connecter</a>
         </div>
