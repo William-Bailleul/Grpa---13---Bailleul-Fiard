@@ -10,19 +10,32 @@
         <div class="nav-wrapper">
           <a href="index.php" class="brand-logo center"><i class="material-icons">videogame_asset</i>Syphon</a>
           <div class="right">
+            <!-- Dropdown Trigger -->
+            <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Drop Me!</a>
+
+            <!-- Dropdown Structure -->
+            <ul id='dropdown1' class='dropdown-content'>
+              <li><a href="#!">one</a></li>
+              <li><a href="#!">two</a></li>
+              <li class="divider" tabindex="-1"></li>
+              <li><a href="#!">three</a></li>
+              <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+              <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+            </ul>
             <?php if(isset($_SESSION['user'])){ ?>
-              <a><i class="fa-solid fa-circle-user"></i></a>
-            <?php }else{ ?>
               <!-- Dropdown Trigger -->
-              <a class='dropdown-trigger btn' data-target='dropdown1'><i class="fa-regular fa-circle-user"></i></a>
+              <a class='dropdown-trigger btn waves-effect waves-dark green lighten-2' href='#' data-target='dropdown1'><i class="fa-solid fa-circle-user"></i></a>
               <!-- Dropdown Structure -->
               <ul id='dropdown1' class='dropdown-content'>
+                <li><a href="profile.php">Profile</a></li>
                 <!--<li><a href="profile.php">profile</a></li>-->
                 <?php if(isset($_SESSION['user']) && $_SESSION['user']['admin']==1){ ?>
-                  <li><a href="admin.php"></a></li>
+                <li><a href="admin.php">Pannel Admin</a></li>
                 <?php } ?>
-                <li><form action="index.html" method="post">logout</form></li>
+                <li><form action="index.html" method="post">Logout</form></li>
               </ul>
+            <?php }else{ ?>
+              <i class="fa-regular fa-circle-user"></i>
             <?php } ?>
             <i class="material-icons dropdown-trigger" id="modeswitcher"> remove_red_eye</i>
           </div>
