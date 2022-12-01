@@ -17,9 +17,9 @@
             <li><a href="terraria.php">Terraria</a></li>
             <li><a href="dbd.php">Dead By Daylight</a></li>
             <li><a href="soom.php">Soom</a></li>
-            <li><a href="soom.php">Soom</a></li>
-            <li><a href="soom.php">Soom</a></li>
-            <li><a href="soom.php">Soom</a></li>
+            <<?php foreach ($variable as $key => $value) {
+              // code...
+            } ?>
             <li><a class="waves-effect waves-light btn modal-trigger blue2" href="#modal1">Contact</a></li>
           </ul>
         </div>
