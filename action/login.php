@@ -18,7 +18,7 @@
  </head>
  <body>
   <?php require "../components/navbar.php" ?>
-   <div class="block1 ">
+   <div class="block1">
      <div class="row animate__animated animate__fadeIn wow">
        <div class="col s10 offset-s1 l6 offset-l3 description anim1 login-block">
         <div class="center login-btn1">
@@ -30,6 +30,6 @@
       </div>
      </div>
     </div>
-  <?php require "../components/js.php" ?>
+    <?php require "../components/js.php" ?>
  </body>
 </html>
