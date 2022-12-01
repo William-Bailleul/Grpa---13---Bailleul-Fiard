@@ -35,7 +35,7 @@
      <div class="row animate__animated animate__fadeIn wow">
        <div class="col s10 offset-s1 l6 offset-l3 description anim1">
          <div class="center login-block">
-           <form action="signup-action.php" method="post" name="signup">
+           <form action="action/signup-action.php" method="post" name="signup">
              <div class="gradient">
                <input type='email' name='email' placeholder="email" /> <br>
                <input type='password' name='password' placeholder="mot de passe" /> <br>

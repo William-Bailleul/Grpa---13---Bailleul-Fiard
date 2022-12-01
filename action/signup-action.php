@@ -1,13 +1,13 @@
 <?php
-require_once "cfg/pdo.php";
-$sql = "INSERT INTO user(email,password,login) VALUES(:email,:password,:login)";
+require_once "../cfg/pdo.php";
+$sql = "INSERT INTO user_info(email,password,username,country,phone_number,birth_date) VALUES(:email,:password,:username,:country,:phone_number,:birth_date)";
 $dataBinded=array(
     ':email'   => $_POST['email'],
     ':password'=> $_POST['password'],
-    ':username'=> $_POST['username']
-    ':country'=> $_POST['country']
-    ':phone_number'=> $_POST['phone_number']
-    ':birth_date'=> $_POST['birth_date']
+    ':username'=> $_POST['username'],
+    ':country'=> $_POST['country'],
+    ':phone_number'=> $_POST['phone_number'],
+    ':birth_date'=> $_POST['birth_date'],
 );
 $pre = $pdo->prepare($sql);
 $pre->execute($dataBinded);
