@@ -48,9 +48,10 @@
                <button class="btn" type="submit" name="action">Terminer</button>
              </div>
            </form>
-      </div>
+         </div>
+       </div>
      </div>
-    </div>
-  </div>
+   </div>
+   <?php require "../components/js.php" ?>
  </body>
 </html>

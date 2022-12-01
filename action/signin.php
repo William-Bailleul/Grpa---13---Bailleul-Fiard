@@ -41,5 +41,6 @@
         </div>
       </div>
     </div>
+    <?php require "../components/js.php" ?>
   </body>
 </html>
