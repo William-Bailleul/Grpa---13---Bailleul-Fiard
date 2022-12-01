@@ -86,7 +86,7 @@ CREATE TABLE `user_info` (
   `email` varchar(80) CHARACTER SET latin1 NOT NULL,
   `phone_number` int(11) NOT NULL,
   `birth_date` date NOT NULL,
-  `creation_date` datetime NOT NULL,
+  `creation_date` timestamp NOT CURRENT_TIMESTAMP,
   `country` varchar(50) CHARACTER SET latin1 NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
