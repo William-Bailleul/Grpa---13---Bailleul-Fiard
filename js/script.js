@@ -47,7 +47,7 @@ $(document).ready(function() {
         var element = document.body;
         element.classList.toggle("rainbowbg");
         audio["walk"] = new Audio();
-        audio["walk"].src = "../mp3/nyan-cat.mp3";
+        audio["walk"].src = "mp3/nyan-cat.mp3";
         audio["walk"].play();
         $('#pic1').attr("src", "img/easter-egg/nyan-cat.gif");
         $('#pic2').attr("src", "img/easter-egg/nyan-cat.gif");
