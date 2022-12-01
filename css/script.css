@@ -29,6 +29,10 @@ i{
   margin: 50px ;
 }
 
+.admin-btn{
+  margin: 10px;
+}
+
 .gradient {
   background: -webkit-linear-gradient(#6f95e2, #3446ad);
   background-clip: text;
@@ -59,10 +63,19 @@ i{
 
 .profileusername h1{
   margin: 0% ;
+  font-size: 300% !important;
 }
-.profiledesc h2 {
+
+.profilepicture {
+  width: 20%;
+}
+
+.profiledesc h2, h3 {
   color:rgba(255,255,255,0.5);
   margin: 0% ;
+}
+.profiledesc h2, h3 {
+  font-size: 100% !important;
 }
 
 #modeswitcher{
