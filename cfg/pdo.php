@@ -1,5 +1,6 @@
 <?php
-
+session_start();
+$_SESSION;
 $pdo = new PDO(
 	'mysql:host=localhost;dbname=grp-a-13;',
 	'root',

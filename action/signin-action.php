@@ -1,6 +1,6 @@
 <?php
 require_once "../cfg/pdo.php";
-$sql = "SELECT * FROM user WHERE username=:username AND password=:password";
+$sql = "SELECT * FROM user_info WHERE username=:username AND password=:password";
 $dataBinded=array(
   ':username' => $_POST['username'],
   ':password' => $_POST['password']
@@ -13,9 +13,9 @@ if(empty($user)){ //vérifie si le resultat est vide !
      echo "Utilisateur ou mot de passe incorrect !";
 }else{
      $_SESSION['user'] = $user[0]; //on enregistre que l'utilisateur est connecté
-     print_r($_SESSION['username']);
-    exit() ;
-}
+     print_r($_SESSION['user']['username']);
 
-//header('Location:../index.php');//on le redirige sur la page d'accueil du site !
+}
+header('Location:../index.php');//on le redirige sur la page d'accueil du site !
+exit() ;
 ?>

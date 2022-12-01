@@ -14,9 +14,6 @@ i{
   background-size: cover;
 }
 
-
-
-
 /* customizations */
 
 .gradient {
@@ -271,7 +268,7 @@ div.card-soom {
 }
 
 div.login-block{
-  margin: 50px;
+  margin: 25px;
 }
 
 #antoine {

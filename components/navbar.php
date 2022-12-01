@@ -1,3 +1,4 @@
+<?php require_once "cfg/pdo.php" ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -10,9 +11,18 @@
           <a href="index.php" class="brand-logo center"><i class="material-icons">videogame_asset</i>Syphon</a>
           <div class="right">
             <?php if(isset($_SESSION['user'])){ ?>
-              <a href="profile.php"><i class="fa-solid fa-circle-user"></i></a>
+              <a><i class="fa-solid fa-circle-user"></i></a>
             <?php }else{ ?>
-              <a href="login.php"><i class="fa-regular fa-circle-user"></i></a>
+              <!-- Dropdown Trigger -->
+              <a class='dropdown-trigger btn' data-target='dropdown1'><i class="fa-regular fa-circle-user"></i></a>
+              <!-- Dropdown Structure -->
+              <ul id='dropdown1' class='dropdown-content'>
+                <!--<li><a href="profile.php">profile</a></li>-->
+                <?php if(isset($_SESSION['user']) && $_SESSION['user']['admin']==1){ ?>
+                  <li><a href="admin.php"></a></li>
+                <?php } ?>
+                <li><form action="index.html" method="post">logout</form></li>
+              </ul>
             <?php } ?>
             <i class="material-icons dropdown-trigger" id="modeswitcher"> remove_red_eye</i>
           </div>
