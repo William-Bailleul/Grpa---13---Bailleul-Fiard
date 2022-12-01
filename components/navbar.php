@@ -9,7 +9,7 @@
         <div class="nav-wrapper">
           <a href="index.php" class="brand-logo center"><i class="material-icons">videogame_asset</i>Syphon</a>
           <div class="right">
-            <a href="../action/login.php"><i class="fa-regular fa-circle-user"></i></a>
+            <a href="login.php"><i class="fa-regular fa-circle-user"></i></a>
             <i class="material-icons dropdown-trigger" id="modeswitcher"> remove_red_eye</i>
           </div>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>

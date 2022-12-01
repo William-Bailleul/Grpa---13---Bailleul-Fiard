@@ -84,9 +84,12 @@ i{
   color:rgba(255,255,255,0.5);
   margin: 0% ;
 }
+
 .profiledesc h2, h3 {
   font-size: 100% !important;
 }
+
+
 
 /* animations */
 
@@ -271,3 +274,11 @@ div.login-block{
 }
 
 /*admin panel*/
+
+div.panel {
+  background-color: var(--block1bg);
+  padding: 20px;
+  border-radius: 4px;
+  margin-left: 10%;
+  margin-right: 10%;
+}

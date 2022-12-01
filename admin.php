@@ -18,8 +18,8 @@
   <title>Syphon Games</title>
 </head>
 <body>
-  <?php require "components/navbar_index.php" ?>
-  <div class="panel">
+  <?php require "components/navbar.php" ?>
+  <div class="panel col s10 offset-s1 l6 offset-l3 anim1">
     test
   </div>
   <?php require "components/js.php" ?>
