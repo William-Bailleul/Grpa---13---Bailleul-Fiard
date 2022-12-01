@@ -29,7 +29,6 @@ $(document).ready(function() {
     $(this).attr("src", "img/easter-egg/meme4.gif");
   });
 
-
   $('#modeswitcher').click(function() {
     if ($("#theme-controller").attr("href") == "css/theme-white.css")
       $("#theme-controller").attr("href", "css/theme-dark.css");
@@ -62,6 +61,10 @@ $(document).ready(function() {
     }
   });
 
+});
+
+$(document).ready(function(){
+$('select').not('.disabled').formSelect();
 });
 
 $('#nyan').click(function() {
