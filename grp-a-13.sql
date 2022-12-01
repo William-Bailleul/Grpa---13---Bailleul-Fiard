@@ -85,7 +85,7 @@ CREATE TABLE `user_info` (
   `admin` tinyint(1) DEFAULT NULL,
   `email` varchar(80) CHARACTER SET latin1 NOT NULL,
   `phone_number` int(11) NOT NULL,
-  `birthdate` date NOT NULL,
+  `birth_date` date NOT NULL,
   `creation_date` datetime NOT NULL,
   `time_spent` time NOT NULL,
   `country` varchar(50) CHARACTER SET latin1 NOT NULL
