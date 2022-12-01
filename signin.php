@@ -34,7 +34,7 @@
                 <input type='password' name='password' placeholder="mot de passe" /> <br>
               </div>
             <div class="center login-btn">
-              <button class="btn blue2" type="submit" name="action">Terminer</button>
+              <button class="btn blue2 login-btn" type="submit" name="action">Se Connecter</button>
             </div>
             </form>
           </div>

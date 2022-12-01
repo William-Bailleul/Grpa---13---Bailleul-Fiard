@@ -17,19 +17,7 @@
    <link rel="icon" href="img/syphon.jpg">
    <title>S'inscrire</title>
   </head>
-
-
   <body>
-   <!--<?php
-     if (isset($_POST['username'])) {
-       echo htmlentities($_POST['username']);
-     }
-
-     if(strlen($_POST['username']) > 16 )
-     {
-       echo 'Nom d\'utilisateur trop long';
-     }
-   ?>-->
   <?php require "components/navbar.php" ?>
    <div class="block1">
      <div class="row animate__animated animate__fadeIn wow">
