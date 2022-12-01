@@ -15,12 +15,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <link rel="icon" href="img/syphon.jpg">
-  <title>Syphon Games</title>
+  <title>Admin Panel</title>
 </head>
 <body>
   <?php require "components/navbar.php" ?>
   <div class="panel col s10 offset-s1 l6 offset-l3 anim1">
-    test
+    <h1>Panel Admin</h1>
+    <h2>Modifier page D'accueil</h2>
+
+    <h2>Créer page projet</h2>
+    
   </div>
   <?php require "components/js.php" ?>
 </body>

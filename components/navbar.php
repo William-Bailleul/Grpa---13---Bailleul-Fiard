@@ -17,6 +17,9 @@
             <li><a href="terraria.php">Terraria</a></li>
             <li><a href="dbd.php">Dead By Daylight</a></li>
             <li><a href="soom.php">Soom</a></li>
+            <li><a href="soom.php">Soom</a></li>
+            <li><a href="soom.php">Soom</a></li>
+            <li><a href="soom.php">Soom</a></li>
             <li><a class="waves-effect waves-light btn modal-trigger blue2" href="#modal1">Contact</a></li>
           </ul>
         </div>
@@ -29,6 +32,7 @@
         <li><i class="fa-solid fa-cat" id="nyan"></i></li>
       </ul>
     </header>
+
     <!-- Modal -->
     <div class="modal-content">
       <div id="modal1" class="modal modal-fixed-footer">

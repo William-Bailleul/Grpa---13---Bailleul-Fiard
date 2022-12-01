@@ -5,10 +5,10 @@ $(document).ready(function() {
     duration: 300
   });
 
+
   $('.sidenav').sidenav();
   $('.modal').modal();
   $('.parallax').parallax();
-
 
   $('#pic1').click(function() {
     $(this).attr("src", "img/easter-egg/vrai_clou.jpg");
