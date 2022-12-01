@@ -45,7 +45,7 @@
                <input type='date' name='birth_date' placeholder="birth date" /> <br>
              </div>
              <div class="center signup-btn">
-               <button class="btn" type="submit" name="action">Terminer</button>
+               <button class="btn blue2" type="submit" name="action">Terminer</button>
              </div>
            </form>
          </div>

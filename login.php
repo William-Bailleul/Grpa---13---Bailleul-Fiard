@@ -22,10 +22,10 @@
      <div class="row animate__animated animate__fadeIn wow">
        <div class="col s10 offset-s1 l6 offset-l3 description anim1 login-block">
         <div class="center login-btn1">
-          <a class="waves-effect waves-light btn" href="signin.php">Se connecter</a>
+          <a class="waves-effect waves-light btn blue2" href="signin.php">Se connecter</a>
         </div>
         <div class="center login-btn2">
-          <a class="waves-effect waves-light btn" href="signup.php">S'inscrire</a>
+          <a class="waves-effect waves-light btn blue2" href="signup.php">S'inscrire</a>
         </div>
       </div>
      </div>
