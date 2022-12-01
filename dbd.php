@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -22,21 +20,19 @@
 
 <body>
   <header>
-  <?php require "components/navbar.php" ?>
+  <?php require "components/navbar_index.php" ?>
   <!-- Introduction block-->
   <div class="row">
     <div class="col s12 center gradient">
       <h1>Dead By Daylight FanSite</h1>
     </div>
     <div class="intro-dbd center">
-      <p>Durant 1 semaine, notre intervenant <a id="antoine"
-          href="https://www.linkedin.com/in/antoine-di-roberto-8aa93768/" target="_blank">Antoine Di Roberto</a>, nous
+      <p>Durant 1 semaine, notre intervenant <a id="antoine"href="https://www.linkedin.com/in/antoine-di-roberto-8aa93768/" target="_blank">Antoine Di Roberto</a>, nous
         a demandé de réaliser un site internet sur notre jeu favoris, en duo. J’ai donc fait un site sur le jeu
         Dead By Daylight
         avec Vitctor Martinan.</p>
     </div>
   </div>
-
 
 
   <!-- Cards -->
@@ -140,7 +136,6 @@
       </div>
     </div>
   </div>
-  <?php require "components/footer.php" ?>
+  <?php require "components/footer_index.php" ?>
 </body>
 </html>
->>>>>>> 1e4d15705c21f2f182d53b37aa65826ef90bd389
