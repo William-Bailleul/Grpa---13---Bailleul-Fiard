@@ -14,12 +14,14 @@ i{
   background-size: cover;
 }
 
+
+
 /* customizations */
 
 .gradient {
   background: -webkit-linear-gradient(#6f95e2, #3446ad);
   background-clip: text;
-  background-size: 100%; 
+  background-size: 100%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   width: 100%;
@@ -32,13 +34,62 @@ i{
   outline-width: 3.5px;
 }
 
-.card-content, .card-image{
+.card-content, .card-image {
   background-color: var(--card);
 }
+
+
 
 #modeswitcher{
   margin-right:8px;
 }
+
+/* user*/
+
+.login-btn1 {
+  margin: 50px;
+  margin-top: 100px;
+}
+.login-btn2 {
+  margin: 50px;
+  margin-bottom: 100px;
+}
+
+.signup-btn{
+  margin: 50px ;
+}
+
+.admin-btn{
+  margin: 10px;
+}
+
+.profile{
+  background-color: var(--descriptionbg);
+  padding: 5px;
+  border-radius: 4px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.profileusername h1{
+  margin: 0% ;
+  font-size: 300% !important;
+}
+
+.profilepicture {
+  width: 20%;
+}
+
+.profiledesc h2, h3 {
+  color:rgba(255,255,255,0.5);
+  margin: 0% ;
+}
+
+.profiledesc h2, h3 {
+  font-size: 100% !important;
+}
+
+
 
 /* animations */
 
@@ -50,7 +101,7 @@ i{
 .anim1:hover{
   box-shadow: 10px 10px 0px #3850d5;
   transition-duration: 0.5s;
-}  
+}
 
 .anim1v2{
     box-shadow: 10px -10px 0px #3850d5;
@@ -60,7 +111,7 @@ i{
 .anim1v2:hover{
   box-shadow: -10px 10px 0px #3850d5;
   transition-duration: 0.5s;
-}  
+}
 
 
 .anim2{
@@ -124,6 +175,7 @@ nav div.right i{
   margin-right: 15px;
   font-size: 30px;
 }
+
 
 nav ul div.modal-content{
   background-color: #3f51b5;
@@ -213,6 +265,20 @@ div.card-soom {
   margin: 10px;
 }
 
+div.login-block{
+  margin: 50px;
+}
+
 #antoine {
   color:#4759e1
+}
+
+/*admin panel*/
+
+div.panel {
+  background-color: var(--block1bg);
+  padding: 20px;
+  border-radius: 4px;
+  margin-left: 10%;
+  margin-right: 10%;
 }

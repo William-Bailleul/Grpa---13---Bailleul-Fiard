@@ -18,6 +18,7 @@
   <title>Syphon Games</title>
 </head>
 <body>
+<<<<<<< HEAD
   <header>
     <!-- nav bar -->
     <nav>
@@ -45,6 +46,9 @@
       <li><i class="fa-solid fa-cat" id="nyan"></i></li>
     </ul>
   </header>
+=======
+  <?php require "components/navbar.php" ?>
+>>>>>>> d6321c52a00e87809681e037564d30f8c5c5175f
   <!-- Carousel -->
   <div class="row">
     <div class="col s12 l8 offset-l2">
@@ -95,7 +99,7 @@
               <div class="card grey darken-3">
                 <div class="card-content white-text">
                   <span class="card-title">Loris Fiard</span>
-                  <p>Né le 6 juillet 2004.</p>
+                  <p>Né le 6 juillet 2005.</p>
                 </div>
               </div>
             </div>
@@ -119,6 +123,7 @@
       </div>
     </div>
   </div>
+<<<<<<< HEAD
   <!-- Footer -->
   <footer class="page-footer">
     <div class="container">
@@ -199,6 +204,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="js/script.js"></script>
   <script src="https://kit.fontawesome.com/198411c19a.js" crossorigin="anonymous"></script>
+=======
+  <?php require "components/footer.php" ?>
+>>>>>>> d6321c52a00e87809681e037564d30f8c5c5175f
 </body>
 
 </html>
