@@ -34,7 +34,7 @@
    <div class="block1">
      <div class="row animate__animated animate__fadeIn wow">
        <div class="col s10 offset-s1 l6 offset-l3 description anim1">
-         <div class="center signup-block">
+         <div class="center login-block">
            <form action="action/signup-A.php" method="post" name="signup">
              <div class="gradient">
                <input type='email' name='email' placeholder="email" /> <br>
@@ -48,9 +48,10 @@
                <button class="btn" type="submit" name="action">Terminer</button>
              </div>
            </form>
-      </div>
+         </div>
+       </div>
      </div>
-    </div>
-  </div>
+   </div>
+   <?php require "../components/js.php" ?>
  </body>
 </html>
