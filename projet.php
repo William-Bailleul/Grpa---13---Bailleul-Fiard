@@ -20,7 +20,7 @@
 
 <body>
   <header>
-  <?php require "components/navbar_index.php" ?>
+  <?php require "components/navbar.php" ?>
   <!-- Introduction block-->
   <div class="row">
     <div class="col s12 center gradient">
@@ -28,9 +28,7 @@
     </div>
     <div class="intro-dbd center">
       <p>Durant 1 semaine, notre intervenant <a id="antoine"href="https://www.linkedin.com/in/antoine-di-roberto-8aa93768/" target="_blank">Antoine Di Roberto</a>, nous
-        a demandé de réaliser un site internet sur notre jeu favoris, en duo. J’ai donc fait un site sur le jeu
-        Dead By Daylight
-        avec Vitctor Martinan.</p>
+        a demandé de réaliser un site internet sur notre jeu favoris, en duo. J’ai donc fait un site sur le jeu Dead By Daylight avec Vitctor Martinan.</p>
     </div>
   </div>
 
@@ -125,7 +123,7 @@
     <div class="col s12 m9 offset-m2 l8 offset-l3">
       <div class="card horizontal animate__animated animate__backInLeft wow anim1">
         <div class="card-image">
-          <img src="img/dbd-cards/dbd5.jpg" alt="image du jeu dead by daylight">
+          <img src="<?php echo ["img"]  ?>" alt="image du jeu dead by daylight">
         </div>
         <div class="card-stacked">
           <div class="card-content">
@@ -136,6 +134,6 @@
       </div>
     </div>
   </div>
-  <?php require "components/footer_index.php" ?>
+  <?php require "components/footer.php" ?>
 </body>
 </html>
