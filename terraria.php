@@ -126,6 +126,25 @@
       </div>
     </div>
   </div>
+  <div class='row'>
+    <div class="col s12 m9 offset-m2 l8 offset-l3">
+      <div class="card horizontal animate__animated animate__backInLeft wow anim1">
+        <div class="card-image">
+          <img id="pic5" src="img/terraria-cards/terracontent2.jpeg" alt="image du jeu dead by daylight">
+        </div>
+        <div class="card-content">
+          <p>Nous avons également montré quelques boss pour donner un sentiment de challenge avec un bannière pour la
+            catégorie à elle seule. Les boss sont aussi mit d'une taille adaptée à ce sentiment</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col s12 m12 l12">
+    <div class="parallax-container">
+      <div class="parallax"><img src="img/terraria-cards/terrariabg3.jpg"
+          alt="image de promotion Terraria en parallax"></div>
+    </div>
+  </div>
   <?php require "components/footer.php" ?>
 </body>
 
