@@ -1,4 +1,4 @@
-<?php require_once "action/logout.php" ?>
+<!--<?php require_once "action/logout.php" ?>-->
 <!DOCTYPE html>
 <html lang="fr">
 <head>

@@ -11,9 +11,9 @@
           <a href="index.php" class="brand-logo center"><i class="material-icons">videogame_asset</i>Syphon</a>
           <div class="right">
             <?php if(isset($_SESSION['user'])){ ?>
-              <i href="profile.php" class="fa-regular fa-circle-user"></i>
+            <a href="profile.php"><i class="fa-solid fa-circle-user"></i></a>
             <?php }else{ ?>
-              <i href="login.php" class="fa-regular fa-circle-user"></i>
+            <a href="login.php"><i class="fa-regular fa-circle-user"></i></a> 
             <?php } ?>
             <i class="material-icons dropdown-trigger" id="modeswitcher"> remove_red_eye</i>
           </div>
