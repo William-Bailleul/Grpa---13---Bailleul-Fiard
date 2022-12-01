@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
+
+
 <head>
   <meta charset="utf-8">
   <!--Import Google Icon Font-->
@@ -17,8 +19,16 @@
   <link rel="icon" href="img/syphon.jpg">
   <title>Syphon Games</title>
 </head>
+
+
+
 <body>
   <?php require "components/navbar_index.php" ?>
+
+<div class="block1">
+  Test
+</div>
+  <?php require "components/js.php" ?>
 </body>
 
 </html>
