@@ -48,7 +48,7 @@
   <!-- Cards -->
   <div class="col s12 m12 l12">
     <div class="parallax-container">
-      <div class="parallax"><img src="img/terraria-cards/terrariabg1.jpg" alt="image de promotion Terraria en parallax">
+      <div class="parallax"><img src="img/terraria-cards/terrariabg3.jpg" alt="image de promotion Terraria en parallax">
       </div>
     </div>
   </div>
@@ -67,7 +67,7 @@
     </div>
     <div class="col s12 m12 l12">
       <div class="parallax-container">
-        <div class="parallax"><img src="img/terraria-cards/terrariabg2.jpg"
+        <div class="parallax"><img src="img/terraria-cards/terrariabg3.jpg"
             alt="image de promotion Terraria en parallax"></div>
       </div>
     </div>
@@ -106,7 +106,7 @@
     </div>
     <div class="col s12 m12 l12">
       <div class="parallax-container">
-        <div class="parallax"><img src="img/terraria-cards/terrariabg2.jpg"
+        <div class="parallax"><img src="img/terraria-cards/terrariabg3.jpg"
             alt="image de promotion Terraria en parallax"></div>
       </div>
     </div>

@@ -45,8 +45,24 @@ i{
   outline-width: 3.5px;
 }
 
-.card-content, .card-image{
+.card-content, .card-image {
   background-color: var(--card);
+}
+
+.profile{
+  background-color: var(--descriptionbg);
+  padding: 5px;
+  border-radius: 4px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.profileusername h1{
+  margin: 0% ;
+}
+.profiledesc h2 {
+  color:rgba(255,255,255,0.5);
+  margin: 0% ;
 }
 
 #modeswitcher{
