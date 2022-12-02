@@ -1,4 +1,4 @@
-<?php require_once 'action/content_projet.php' ?>
+<?php require_once 'action/contentProjet.php' ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -21,7 +21,17 @@
 
 <body>
   <header>
-  <?php require "components/navbar_index.php" ?>
+    <?php require "components/navbar_index.php" ?>
+    <?php
+    require_once "cfg/config.php";
+    $sql = "SELECT * FROM project WHERE id=:id";
+    $dataBinded=array(
+        ':id' => $_GET['id']
+    );
+    $pre = $pdo->prepare($sql);
+    $pre->execute($dataBinded);
+    $user = $pre->fetch(PDO::FETCH_ASSOC);
+    ?>
   <!-- Introduction block-->
   <div class="row">
     <div class="col s12 center gradient">

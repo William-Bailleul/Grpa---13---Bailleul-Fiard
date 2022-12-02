@@ -1,5 +1,5 @@
 <?php
-require_once "../cfg/pdo.php";
+require_once "cfg/pdo.php";
 $destination_para1 = "upload/".$_FILES['para1']['name']; //dossier "upload"
 move_uploaded_file($_FILES['para1']['tmp_name'],"../".$destination_para1);
 $destination_para2 = "upload/".$_FILES['para2']['name']; //dossier "upload"
@@ -34,15 +34,14 @@ $dataBinded=array(
     ':para3' => $destination_para1,
     ':para4' => $destination_para1,
     ':para5' => $destination_para5,
-    ':img1' => $_POST['img1'],
-    ':img2' => $_POST['img2'],
-    ':img3' => $_POST['img3'],
-    ':img4' => $_POST['img4'],
-    ':img5' => $_POST['img5'],
+    ':img1' => $destination_img1,
+    ':img2' => $destination_img2,
+    ':img3' => $destination_img3,
+    ':img4' => $destination_img4,
+    ':img5' => $destination_img5,
 );
 $pre = $pdo->prepare($sql);
 $pre->execute($dataBinded);
 $user = $pre->fetch(PDO::FETCH_ASSOC);
-
 //header('Location:../projet.php');
 ?>
