@@ -22,7 +22,6 @@
   <div class="block1">
     <div class="col s10 offset-s1 l6 offset-l3 profile anim1">
       <div class="profileusername center">
-        <img class="profilepicture" src="img/soom-cards/soom2.jpeg" alt="image du jeu Soom">
         <?php if(isset($_SESSION['user']) && $_SESSION['user']['admin']==1){ ?>
           <div class="center admin-btn">
             <a class="waves-effect waves-light btn blue2" href="admin.php">Admin Panel</a>
