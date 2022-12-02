@@ -34,15 +34,9 @@
       </div>
       <br>
       <div class="profiledesc center">
-<<<<<<< HEAD
-        <h3>
-          <?php echo "Born in : ".$_SESSION['user']['birth_date']; ?>
-        </h3>
-=======
         <h2>
           <?php echo "Email : ".$_SESSION['user']['email']; ?>
         </h2>
->>>>>>> fb88dd813b5e72bbe8aec4a0ad058b96b4525613
       </div>
       <br>
       <div class="profiledesc center">
