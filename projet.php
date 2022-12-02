@@ -1,3 +1,4 @@
+<?php require_once 'action/content-projet.php' ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -26,7 +27,7 @@
     <div class="col s12 center gradient">
       <h1><?php echo ['h1'] ?></h1>
     </div>
-    <div class="intro-dbd center">
+    <div class="intro-dbd center"><?php echo ?>
       <p>Durant 1 semaine, notre intervenant <a id="antoine"href="https://www.linkedin.com/in/antoine-di-roberto-8aa93768/" target="_blank">Antoine Di Roberto</a>, nous
         a demandé de réaliser un site internet sur notre jeu favoris, en duo. J’ai donc fait un site sur le jeu
         Dead By Daylight
