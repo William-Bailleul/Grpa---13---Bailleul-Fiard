@@ -9,5 +9,6 @@ $dataBinded=array(
 );
 $pre = $pdo->prepare($sql);
 $pre->execute($dataBinded);
-header('Location:../index.php')
+header('Location:../index.php');
+exit();
 ?>
