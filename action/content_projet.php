@@ -8,7 +8,7 @@ $destination_para3 = "upload/".$_FILES['para3']['name']; //dossier "upload"
 move_uploaded_file($_FILES['para3']['tmp_name'],"../".$destination_para3);
 $destination_para4 = "upload/".$_FILES['para4']['name']; //dossier "upload"
 move_uploaded_file($_FILES['para4']['tmp_name'],"../".$destination_para4);
-$$destination_para5 = "upload/".$_FILES['para5']['name']; //dossier "upload"
+$destination_para5 = "upload/".$_FILES['para5']['name']; //dossier "upload"
 move_uploaded_file($_FILES['para5']['tmp_name'],"../".$destination_para5);
 $destination_img1 = "upload/".$_FILES['img1']['name']; //dossier "upload"
 move_uploaded_file($_FILES['img1']['tmp_name'],"../".$destination_img1);
