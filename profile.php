@@ -1,4 +1,4 @@
-<!--<?php require_once "action/logout.php" ?>-->
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -18,8 +18,6 @@
   <link rel="icon" href="img/syphon.jpg">
   <title>Profil</title>
 </head>
-
-
 
 <body>
   <?php require "components/navbar.php" ?>
