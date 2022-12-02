@@ -12,7 +12,7 @@
           <div class="right">
             <?php if(isset($_SESSION['user'])){ ?>
             <form action="action/logout.php" method="post">
-              <button type="submit" name="button"><i class="fa-solid fa-right-from-bracket"></i></button> 
+              <button type="submit" name="button"><i class="fa-solid fa-right-from-bracket"></i></button>
             </form>
             <a href="profile.php"><i class="fa-solid fa-circle-user"></i></a>
             <?php }else{ ?>
@@ -46,27 +46,27 @@
             <div class="col s12 l12 modal-start">
               <h5 class="blue-text">Contact</h5>
               <div class="row">
-                <form class="col s12 l12">
+                <form action="action/mail.php" class="col s12 l12" method="post">
                   <div class="row">
                     <div class="input-field col s6 l6">
-                      <input id="first_name" type="text" class="validate">
+                      <input id="first_name" type="text" class="validate" name="first_name">
                       <label for="first_name">Prénom</label>
                     </div>
                     <div class="input-field col s6 l6">
-                      <input id="last_name" type="text" class="validate">
+                      <input id="last_name" type="text" class="validate" name="last_name">
                       <label for="last_name">Nom</label>
                     </div>
                   </div>
                   <div class="row">
                     <div class="input-field col s12 l12">
-                      <input id="email" type="email" class="validate">
+                      <input id="email" type="email" class="validate" name="email">
                       <label for="email">Email</label>
                     </div>
                     <div class="input-field col s12 l12">
-                      <textarea id="textarea1" class="materialize-textarea"></textarea>
+                      <textarea id="textarea1" class="materialize-textarea" name="message"></textarea>
                       <label for="textarea1">Message</label>
                       <div class="modal-footer">
-                        <a href="#!" class="modal-close waves-effect waves-light btn-flat">Send</a>
+                        <button type="submit" class="modal-close waves-effect waves-light btn-flat">Send</a>
                       </div>
                     </div>
                   </div>

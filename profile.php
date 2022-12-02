@@ -23,21 +23,46 @@
     <div class="col s10 offset-s1 l6 offset-l3 profile anim1">
       <div class="profileusername center">
         <img class="profilepicture" src="img/soom-cards/soom2.jpeg" alt="image du jeu Soom">
-
+        <?php if(isset($_SESSION['user']) && $_SESSION['user']['admin']==1){ ?>
+          <div class="center admin-btn">
+            <a class="waves-effect waves-light btn blue2" href="admin.php">Admin Panel</a>
+          </div>
+        <?php } ?>
         <h1>
           <?php echo $_SESSION['user']['username']; ?>
         </h1>
       </div>
+      <br>
       <div class="profiledesc center">
+<<<<<<< HEAD
         <h3>
           <?php echo "Born in : ".$_SESSION['user']['birth_date']; ?>
         </h3>
+=======
+        <h2>
+          <?php echo "Email : ".$_SESSION['user']['email']; ?>
+        </h2>
+>>>>>>> fb88dd813b5e72bbe8aec4a0ad058b96b4525613
       </div>
-      <?php if(isset($_SESSION['user']) && $_SESSION['user']['admin']==1){ ?>
-        <div class="center admin-btn">
-          <a class="waves-effect waves-light btn blue2" href="admin.php">Admin Panel</a>
-        </div>
-      <?php } ?>
+      <br>
+      <div class="profiledesc center">
+        <h2>
+          <?php echo "Phone Number : ".$_SESSION['user']['phone_number']; ?>
+        </h2>
+      </div>
+      <br>
+      <div class="profiledesc center">
+        <h2>
+          <?php echo "Country : ".$_SESSION['user']['country']; ?>
+        </h2>
+      </div>
+      <br>
+      <div class="profiledesc center">
+        <h2>
+          <?php echo "Born in : ".$_SESSION['user']['birth_date']; ?>
+        </h2>
+      </div>
+      <br>
     </div>
   </div>
   <?php require "components/js.php" ?>
