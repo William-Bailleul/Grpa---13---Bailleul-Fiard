@@ -1,4 +1,4 @@
-<?php require_once 'action/content-projet.php' ?>
+<?php require_once 'action/content_projet.php' ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -25,79 +25,71 @@
   <!-- Introduction block-->
   <div class="row">
     <div class="col s12 center gradient">
-      <h1><?php echo ['h1'] ?></h1>
+      <h1><?php echo $_SESSION['user']['h1'] ?></h1>
     </div>
-    <div class="intro-dbd center"><?php echo ?>
-      <p>Durant 1 semaine, notre intervenant <a id="antoine"href="https://www.linkedin.com/in/antoine-di-roberto-8aa93768/" target="_blank">Antoine Di Roberto</a>, nous
-        a demandé de réaliser un site internet sur notre jeu favoris, en duo. J’ai donc fait un site sur le jeu
-        Dead By Daylight
-        avec Vitctor Martinan.</p>
+    <div class="intro-dbd center">
+      <p><?php echo $_SESSION['user']['p1'] ?></p>
     </div>
   </div>
-
-
   <!-- Cards -->
   <div class="col s12 m12 l12">
     <div class="parallax-container">
-      <div class="parallax"><img src="img/promo_dead_by_daylight.jpg"
-          alt="image de promotion dead by daylight en parallax"></div>
+      <div class="parallax"><img src="<?php echo $_SESSION['user']['para1'] ?>"
+          alt="image de <?php echo $_SESSION['user']['h1'] ?> en parallax"></div>
     </div>
   </div>
   <div class='row'>
     <div class="col s12 m9 offset-m2 l8 offset-l3">
       <div class="card horizontal animate__animated animate__backInLeft wow anim1">
         <div class="card-image">
-          <img src="img/dbd-cards/dbd1.jpg" alt="image du jeu dead by daylight">
+          <img src="<?php echo $_SESSION['user']['img1'] ?>" alt="image du <?php echo $_SESSION['user']['h1'] ?>">
         </div>
         <div class="card-content">
-          <p>Pour le site on a choisi de mettre une image en background (ici l’image de promotion de DBD), on y retrouve
-            aussi une nav-bar assez simple, avec une police spécifique et on passe sa couleur en rouge et on assombrie
-            la div quand on passe la souris dessus. </p>
+          <p><?php echo $_SESSION['user']['p2'] ?></p>
         </div>
       </div>
     </div>
   </div>
   <div class="col s12 m12 l12">
     <div class="parallax-container">
-      <div class="parallax"><img src="img/promo_dead_by_daylight.jpg"
-          alt="image de promotion dead by daylight en parallax"></div>
+      <div class="parallax"><img src="<?php echo $_SESSION['user']['para2'] ?>"
+          alt="image de <?php echo $_SESSION['user']['h1'] ?> en parallax"></div>
     </div>
   </div>
   <div class='row'>
     <div class="col s12 m9 offset-m1 l8 offset-l1">
       <div class="card horizontal animate__animated animate__backInRight wow anim1v2">
         <div class="card-content">
-          <p>On a choisi d’adopter un style plutôt typique gentil = bleu, méchant = rouge, classique mais ça marche. On
-            y explique quel est le rôle de chaque camp et comment jouer.</p>
+          <p><?php echo $_SESSION['user']['p3'] ?></p>
         </div>
         <div class="card-image">
-          <img src="img/dbd-cards/dbd2.jpg" alt="image du jeu dead by daylight">
+          <img src="<?php echo $_SESSION['user']['img2'] ?>" alt="image du <?php echo $_SESSION['user']['h1'] ?>">
         </div>
       </div>
     </div>
   </div>
   <div class="col s12 m12 l12">
     <div class="parallax-container">
-      <div class="parallax"><img src="img/promo_dead_by_daylight.jpg"
-          alt="image de promotion dead by daylight en parallax"></div>
+      <div class="parallax"><img src="<?php echo $_SESSION['user']['para3'] ?>"
+          alt="image <?php echo $_SESSION['user']['h1'] ?> en parallax"></div>
     </div>
   </div>
   <div class='row'>
     <div class="col s12 m9 offset-m2 l8 offset-l3">
       <div class="card horizontal animate__animated animate__backInLeft wow anim1">
         <div class="card-image">
-          <img src="img/dbd-cards/dbd3.jpg" alt="image du jeu dead by daylight">
+          <img src="<?php echo $_SESSION['user']['img3'] ?>" alt="<?php echo $_SESSION['user']['h1'] ?>">
         </div>
         <div class="card-content">
-          <p>On a pris la vidéo de gameplay d’un des sites de DBD et l’a uploadé sur YouTube en non répertoriée.</p>
+          <p><?php echo $_SESSION['user']['p4'] ?></p>
         </div>
       </div>
     </div>
   </div>
   <div class="col s12 m12 l12">
     <div class="parallax-container">
-      <div class="parallax"><img src="img/promo_dead_by_daylight.jpg"
-          alt="image de promotion dead by daylight en parallax"></div>
+      <div class="parallax"><img src="<?php echo $_SESSION['user']['para4'] ?>"
+          alt="image de <?php echo $_SESSION['user']['h1'] ?> en parallax"></div>
     </div>
   </div>
   <div class='row'>
@@ -105,33 +97,29 @@
       <div class="card horizontal animate__animated animate__backInRight wow anim1v2">
         <div class="card-content">
           <span class="card-title"></span>
-          <p>On y explique tout le contenu en jeu dans des div « flex » , de manière simple, efficace et rapide
-            On a rencontré quelque problèmes d’affichage concernant l’interaction de la div « flex » entre le texte et
-            les images.
-          </p>
+          <p><?php echo $_SESSION['user']['p5'] ?></p>
         </div>
         <div class="card-image">
-          <img src="img/dbd-cards/dbd4.jpg" alt="image du jeu dead by daylight">
+          <img src="<?php echo $_SESSION['user']['img4'] ?>" alt="image du <?php echo $_SESSION['user']['h1'] ?>">
         </div>
       </div>
     </div>
   </div>
   <div class="col s12 m12 l12">
     <div class="parallax-container">
-      <div class="parallax"><img src="img/promo_dead_by_daylight.jpg"
-          alt="image de promotion dead by daylight en parallax"></div>
+      <div class="parallax"><img src="<?php echo $_SESSION['user']['para5'] ?>"
+          alt="image de <?php echo $_SESSION['user']['h1'] ?> en parallax"></div>
     </div>
   </div>
   <div class='row'>
     <div class="col s12 m9 offset-m2 l8 offset-l3">
       <div class="card horizontal animate__animated animate__backInLeft wow anim1">
         <div class="card-image">
-          <img src="img/dbd-cards/dbd5.jpg" alt="image du jeu dead by daylight">
+          <img src="<?php echo $_SESSION['user']['img5'] ?>" alt="image du <?php echo $_SESSION['user']['h1'] ?>">
         </div>
         <div class="card-stacked">
           <div class="card-content">
-            <p>On y a marqué comment le studio (Behaviour) garde sa communauté vivante et propose du contenu attractif,
-              qui permettent en grande partie de financer le jeu.</p>
+            <p><?php echo $_SESSION['user']['p6'] ?></p>
           </div>
         </div>
       </div>

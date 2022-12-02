@@ -1,3 +1,4 @@
+<?php require_once "cfg/security.php" ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -22,9 +23,7 @@
   <div class="panel col s10 offset-s1 l6 offset-l3 anim1">
     <h1>Panel Admin</h1>
     <h2>Modifier page D'accueil</h2>
-
     <h2>Créer page projet</h2>
-
     <h2>Liste des utilisateurs</h2>
     <?php
     $sql = "SELECT * FROM user_info";
