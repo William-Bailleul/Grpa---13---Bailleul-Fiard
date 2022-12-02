@@ -32,7 +32,7 @@
       </div>
       <div class="profiledesc center">
         <h3>
-          <?php echo "Born in :".$_SESSION['user']['username']; ?>
+          <?php echo "Born in :".$_SESSION['user']['birth_date']; ?>
         </h3>
       </div>
       <div class="center admin-btn">
