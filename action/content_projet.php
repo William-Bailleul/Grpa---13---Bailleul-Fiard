@@ -20,6 +20,7 @@ $destination_img4 = "upload/".$_FILES['img4']['name']; //dossier "upload"
 move_uploaded_file($_FILES['img4']['tmp_name'],"../".$destination_img4);
 $destination_img5 = "upload/".$_FILES['img5']['name']; //dossier "upload"
 move_uploaded_file($_FILES['img5']['tmp_name'],"../".$destination_img5);
+
 $sql = "SELECT * FROM project WHERE p1=:p1 AND p2=:p2 AND p3=:p3 AND p4=:p4 AND p5=:p5 AND p6=:p6 AND para1=:para1 AND para2=:para2 AND para3=:para3 AND para4=:para4 AND para5=:para5 AND img1=:img1 AND img2=:img2 AND img3=:img3 AND img4=:img4 AND img5=:img5";
 $dataBinded=array(
     ':p1' => $_POST['p1'],
@@ -43,5 +44,5 @@ $pre = $pdo->prepare($sql);
 $pre->execute($dataBinded);
 $user = $pre->fetch(PDO::FETCH_ASSOC);
 
-//header('Location:../admin.php');
+//header('Location:../projet.php');
 ?>

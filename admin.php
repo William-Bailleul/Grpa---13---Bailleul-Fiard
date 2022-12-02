@@ -22,9 +22,9 @@
   <?php require "components/navbar.php" ?>
   <div class="panel col s10 offset-s1 l6 offset-l3 anim1">
     <h1>Panel Admin</h1>
+    <h2>Liste des utilisateurs</h2>
     <h2>Modifier page D'accueil</h2>
     <h2>Créer page projet</h2>
-    <h2>Liste des utilisateurs</h2>
     <?php
     $sql = "SELECT * FROM user_info";
     $pre = $pdo->prepare($sql);
@@ -38,7 +38,7 @@
         <input type='hidden' name='id' value="<?php echo $user['id'] ?>"/>
         <input type='submit' value='Modifier' />
       </form>
-      <h3><?php echo $user['admin'] ?></h3>
+      <h3>Est Admin ?: <br><?php echo $user['admin'] ?></h3>
 
       <h3><?php echo $user['email'] ?></h3>
       <form method="post" action="action/mail-update.php">
