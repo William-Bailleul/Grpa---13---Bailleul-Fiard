@@ -7,15 +7,14 @@ $dataBinded=array(
 $pre = $pdo->prepare($sql);
 $pre->execute($dataBinded);
 $data = $pre->fetchAll(PDO::FETCH_ASSOC);
+
 foreach($data as $user){
-
-
 if($user['admin']==0){
-    $user_info['admin']=1;
-}else{
-    $user_info['admin']=0;
+    $user['admin']=1;
 }
-
+else{
+    $user['admin']=0;
+}
 }
 header('Location:../admin.php');
 exit();
