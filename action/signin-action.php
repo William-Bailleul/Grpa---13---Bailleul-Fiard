@@ -16,7 +16,7 @@ if(empty($user)){ //vérifie si le resultat est vide !
 }
 else{
   $_SESSION['user'] = $user; //on enregistre que l'utilisateur est connecté
-  if($user['admin']==0) {
+  if($user['admin']==1) {
     header('Location:../admin.php');
   }
   else{
